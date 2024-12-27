@@ -27,7 +27,7 @@ export class FetchRecentQuestionsController{
   async handle(
     @Query('page', queryValidationPipe) page: PageQueryParamSchema
   ){
-    const perPage = 1
+    const perPage = 20
 
     console.log(page)
 
